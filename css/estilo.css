@@ -1,0 +1,108 @@
+.pai{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+justify-content:flex-start;
+
+
+	/*display:flex;transforma em flex conteiner
+	flex-direction: row;direção dos filhos/column
+	flex-wrap:wrap;permite ou nao a quebra de linha
+	justify-content:space-between;fex-start,fex-end,center alinha os filhos na direção do eixo principal
+	align-items: center;alinha os filhos na direção do eixo secundario*/
+
+	
+}
+.filho0{
+	display:flex;
+	width:15%;
+	height: 20vh;
+	background-color:#30503A;
+	justify-content:center;
+	align-items:center;
+}
+.logo{
+	width:auto;
+	height:10vh;
+
+}
+.filho1{width:85%;
+	height: 20vh;
+	background-color:#30503A ;
+display:flex;
+justify-content:flex-end;
+align-items:flex-start;
+}
+.Bnp{
+	background-color:white;
+	margin-top:20px;
+	margin-right:10px;
+}
+
+
+.filho2{width:100%;
+	height: 15vh;
+	justify-content:center;
+	 background-color:#d3d3d3;display: flex;
+	justify-content:center;
+	align-items:center;
+}.fec{
+	width:auto;
+	height:13vh;
+
+}
+	.filho3{width:70%;
+		height:auto;
+		justify-content:center;
+		display: flex;
+		flex-direction:column;}
+		.er{
+			width:90%;
+			height:100% ;
+			
+		}
+		.p{
+			font-family: sans-serif;
+			font-size:30px;
+			color: blue;
+
+		}
+		.filho4{width:30%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+		}
+		.zif{
+			width:auto;
+			height:40%;
+			margin-top: 10px;
+		}
+		.td{ 
+			width:auto;
+			height:20%;
+			margin-top:5px;
+
+		}
+			.filho6{width:100%;
+				height: 20vh;
+
+				background-color:#30503A ;}
+		@media(max-width:760px){
+			.filho2{
+				display:none;
+			}
+			.filho1{
+				display:none;
+			}
+			.filho0{
+				width:100%;
+			}
+			.filho3{
+				width:100%;
+			}
+			.filho4{
+				width:100%;
+			}
+
+		}
+
